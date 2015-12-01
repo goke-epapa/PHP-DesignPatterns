@@ -1,5 +1,7 @@
 <?php
 
+require('PaymentAdapter.php');
+require('PayPal.php');
 /**
  * @author Adegoke Obasa <goke@cottacush.com>
  */
