@@ -1,5 +1,6 @@
 <?php
-
+require('PaymentAdapter.php');
+require('MoneyBooker.php');
 /**
  * @author Adegoke Obasa <goke@cottacush.com>
  */

@@ -4,8 +4,11 @@
  * @author Adegoke Obasa <goke@cottacush.com>
  */
 
-require('PayPalAdapter.php');
-
+//require('PayPalAdapter.php');
 // Using PayPal Adapter
-$paypal = new PayPalAdapter(new PayPal());
-$paypal->pay(2629);
+//$paypal = new PayPalAdapter(new PayPal());
+//$paypal->pay(2629);
+
+require('MoneyBookerAdapter.php');
+$moneyBooker = new MoneyBookerAdapter(new MoneyBooker());
+$moneyBooker->pay(5000);
