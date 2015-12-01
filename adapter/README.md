@@ -1,0 +1,2 @@
+## Adapter Design Pattern - http://code.tutsplus.com/tutorials/design-patterns-the-adapter-pattern--cms-22262
+In software engineering, the adapter pattern is a software design pattern that allows the interface of an existing class to be used from another interface. It is often used to make existing classes work with others without modifying their source code.
